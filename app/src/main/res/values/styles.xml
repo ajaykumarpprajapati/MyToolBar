@@ -6,10 +6,17 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="actionOverflowMenuStyle">@style/PopTheme</item>
+       <!-- Applying popmenu item text color -->
+        <item name="android:itemTextAppearance">@style/menu_item_color</item>
     </style>
     <!-- to change color of popup theme for toolbar-->
 
     <style name="PopTheme" parent="Widget.AppCompat.PopupMenu.Overflow">
-        <item name="android:popupBackground">@color/colorPrimary</item>
+        <item name="android:popupBackground">@color/whiteBackground</item>
+        <!--<item name="actionMenuTextColor">@color/menuItemColor</item>-->
+    </style>
+    <!-- Changing popupMenu textColor-->
+    <style name="menu_item_color">
+        <item name="android:textColor">@color/menuItemColor</item>
     </style>
 </resources>
