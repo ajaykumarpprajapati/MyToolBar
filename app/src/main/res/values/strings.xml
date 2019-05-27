@@ -3,4 +3,6 @@
     <string name="item_1">Item1</string>
     <string name="item_2">Item2</string>
     <string name="item_3">Item3</string>
+    <string name="content_description">Content Description</string>
+    <string name="inbox">Inbox</string>
 </resources>

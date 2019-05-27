@@ -1,10 +1,8 @@
 package com.neoqunat.mytoolbarapp
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.widget.PopupMenu
+import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
-import android.view.ContextThemeWrapper
 import android.view.Menu
 import android.view.MenuItem
 
@@ -14,10 +12,12 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.navigatiin_drawer)
         toolbar = findViewById(R.id.tool_bar)
         setSupportActionBar(toolbar)
         toolbar?.title = "ToolBar"
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
 
     }
 
@@ -37,6 +37,15 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.item3_id -> {
 
+            }
+            R.id.search_menu -> {
+
+            }
+            R.id.cart_menu -> {
+
+            }
+            android.R.id.home ->{
+                finish()
             }
         }
         return super.onOptionsItemSelected(item)
