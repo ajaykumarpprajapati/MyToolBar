@@ -2,7 +2,9 @@ package com.neoqunat.mytoolbarapp
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.widget.PopupMenu
 import android.support.v7.widget.Toolbar
+import android.view.ContextThemeWrapper
 import android.view.Menu
 import android.view.MenuItem
 
@@ -16,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         toolbar = findViewById(R.id.tool_bar)
         setSupportActionBar(toolbar)
         toolbar?.title = "ToolBar"
+
     }
 
     // region Override Method of Menu

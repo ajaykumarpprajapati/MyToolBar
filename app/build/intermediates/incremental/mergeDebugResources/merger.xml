@@ -2672,8 +2672,8 @@
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="android:itemBackground">@style/PopTheme</item>
-    </style><style name="PopTheme" parent="@android:style/Widget.PopupMenu">
+        <item name="actionOverflowMenuStyle">@style/PopTheme</item>
+    </style><style name="PopTheme" parent="Widget.AppCompat.PopupMenu.Overflow">
         <item name="android:popupBackground">@color/colorPrimary</item>
     </style></file><file name="menu_main" path="D:\Ajay\AndroidApp\MyToolBarApp\app\src\main\res\menu\menu_main.xml" qualifiers="" type="menu"/></source><source path="D:\Ajay\AndroidApp\MyToolBarApp\app\build\generated\res\rs\debug"/><source path="D:\Ajay\AndroidApp\MyToolBarApp\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Ajay\AndroidApp\MyToolBarApp\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Ajay\AndroidApp\MyToolBarApp\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
