@@ -8,8 +8,8 @@
               android:layout_width="match_parent"
               android:layout_height="160dp">
 
-    <ImageView android:layout_width="256dp"
-               android:layout_height="256dp"
+    <ImageView android:layout_width="56dp"
+               android:layout_height="56dp"
                android:scaleType="centerCrop"
                android:src="@drawable/john"
                android:contentDescription="@string/content_description"/>

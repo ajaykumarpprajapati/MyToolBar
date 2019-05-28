@@ -5,4 +5,13 @@
     <string name="item_3">Item3</string>
     <string name="content_description">Content Description</string>
     <string name="inbox">Inbox</string>
+    <string name="starred">Starred</string>
+    <string name="sent">Sent</string>
+    <string name="draft">Draft</string>
+    <string name="sub_header">Sub Header</string>
+    <string name="all_mail">All Mail</string>
+    <string name="thrash">Thrash</string>
+    <string name="spam">Spam</string>
+    <string name="open_drawer">Open Navigation Drawer</string>
+    <string name="close_drawer">Close Navigation Drawer</string>
 </resources>
