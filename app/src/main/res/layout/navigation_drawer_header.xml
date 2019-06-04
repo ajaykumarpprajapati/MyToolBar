@@ -8,11 +8,21 @@
               android:layout_width="match_parent"
               android:layout_height="160dp">
 
-    <ImageView android:layout_width="56dp"
-               android:layout_height="56dp"
-               android:scaleType="centerCrop"
-               android:src="@drawable/john"
-               android:contentDescription="@string/content_description"/>
+    <!--<ImageView android:layout_width="56dp"-->
+               <!--android:layout_height="56dp"-->
+               <!--android:scaleType="centerCrop"-->
+               <!--android:src="@drawable/john"-->
+               <!--android:contentDescription="@string/content_description"/>-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/john"
+            android:contentDescription="@string/content_description"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
 
     <TextView android:layout_width="wrap_content"
               android:layout_height="wrap_content"

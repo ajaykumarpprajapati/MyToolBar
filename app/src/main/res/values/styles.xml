@@ -9,14 +9,29 @@
        <!-- Applying popmenu item text color -->
         <item name="android:itemTextAppearance">@style/menu_item_color</item>
     </style>
-    <!-- to change color of popup theme for toolbar-->
 
+    <!-- to change color of popup theme for toolbar-->
     <style name="PopTheme" parent="Widget.AppCompat.PopupMenu.Overflow">
         <item name="android:popupBackground">@color/whiteBackground</item>
         <!--<item name="actionMenuTextColor">@color/menuItemColor</item>-->
     </style>
+
     <!-- Changing popupMenu textColor-->
     <style name="menu_item_color">
         <item name="android:textColor">@color/menuItemColor</item>
     </style>
+
+    <!-- this style will help to draw status bar over the navigation drawer
+    with transparent background of status bar // or remove style sheet to place navigationbar under toolbar-->
+    <!--<style name="AppTheme.NoActionBar">-->
+        <!--&lt;!&ndash;Activity will not have default toolbar if value is false&ndash;&gt;-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--&lt;!&ndash;Activity default toobar have no label if it is true&ndash;&gt;-->
+        <!--<item name="windowNoTitle">true</item>-->
+        <!--&lt;!&ndash;deal with status bar background&ndash;&gt;-->
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <!---->
+        <!---->
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+    <!--</style>-->
 </resources>
